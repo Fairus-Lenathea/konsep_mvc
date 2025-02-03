@@ -12,9 +12,9 @@ Berikut merupakan gambaran MVC pada Laravel.
 
 
 Penjelasan:
-1. User mengakses website melalui route tertentu.
-2. Route tersebut akan mengarah / merujuk kepada controller action.
-3. Apabila terdapat data yang ingin diakses, maka controller akan menuju model. Bila tidak ada, controller langsung mengembalikan sebuah view tanpa data (langsung ke poin 5).
-4. Model ini akan berinteraksi dengan database untuk mendapatkan sebuah data, menyimpan, merubah, maupun menghapus data.
-5. Setelah berhasil mendapatkan data dari model, controller akan mengembalikan sebuah view beserta data jika ada.
-6. Proses terakhir dimana view dilihat oleh user.
+1. - User mengakses website melalui route tertentu.
+2. - Route tersebut akan mengarah / merujuk kepada controller action.
+3. - Apabila terdapat data yang ingin diakses, maka controller akan menuju model. Bila tidak ada, controller langsung mengembalikan sebuah view tanpa data (langsung ke poin 5).
+4. - Model ini akan berinteraksi dengan database untuk mendapatkan sebuah data, menyimpan, merubah, maupun menghapus data.
+5. - Setelah berhasil mendapatkan data dari model, controller akan mengembalikan sebuah view beserta data jika ada.
+6. - Proses terakhir dimana view dilihat oleh user.
